@@ -7,4 +7,31 @@ html,body{
 	background-image: url('https://images.unsplash.com/photo-1421789665209-c9b2a435e3dc?ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80');
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding-top: 200px;
+}
+.sol-item{
+	background:url("https://www.intelligenthq.com/wp-content/uploads/2019/12/business.jpg");
+	height: 20vw;
+	background-size: cover;	
+	position: relative;
+}
+.sol-overlay{
+	position: absolute;
+	left: 0;bottom: 0;right: 0;top: 0;
+	background-color: black;
+	opacity: 0.3;
+
+}
+.sol-capt{
+	color: white;
+	position: absolute;
+	top: 50%;left: 0;right: 0;
+	transform: translateY(-50%);
+
+}
+.sol-capt i{
+	font-size:50px; 
+}
+.sol-capt p{
+	font-size:30px; 
 }
